@@ -13,6 +13,7 @@
 		7F32CD8B28A2D30800EE2ED9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F32CD8928A2D30800EE2ED9 /* Main.storyboard */; };
 		7F32CD8D28A2D30900EE2ED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F32CD8C28A2D30900EE2ED9 /* Assets.xcassets */; };
 		7F32CD9028A2D30900EE2ED9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F32CD8E28A2D30900EE2ED9 /* LaunchScreen.storyboard */; };
+		7F32CD9828A2D32500EE2ED9 /* Midel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F32CD9728A2D32500EE2ED9 /* Midel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7F32CD8C28A2D30900EE2ED9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F32CD8F28A2D30900EE2ED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F32CD9128A2D30900EE2ED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F32CD9728A2D32500EE2ED9 /* Midel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Midel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		7F32CD8228A2D30800EE2ED9 /* NetPing */ = {
 			isa = PBXGroup;
 			children = (
+				7F32CD9728A2D32500EE2ED9 /* Midel.swift */,
 				7F32CD8328A2D30800EE2ED9 /* AppDelegate.swift */,
 				7F32CD8528A2D30800EE2ED9 /* SceneDelegate.swift */,
 				7F32CD8728A2D30800EE2ED9 /* ViewController.swift */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F32CD8828A2D30800EE2ED9 /* ViewController.swift in Sources */,
+				7F32CD9828A2D32500EE2ED9 /* Midel.swift in Sources */,
 				7F32CD8428A2D30800EE2ED9 /* AppDelegate.swift in Sources */,
 				7F32CD8628A2D30800EE2ED9 /* SceneDelegate.swift in Sources */,
 			);
@@ -304,7 +308,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,7 +336,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
